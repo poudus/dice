@@ -1,6 +1,11 @@
 import random
 import sys
 
+def search(text, nb):
+	count = counter.count(nb)
+	if count > 0:
+		print(str(count)+' '+text)
+
 counter = []
 for i in range(7):
 	counter.append(0)
@@ -20,3 +25,7 @@ for dice in dices:
 	counter[dice] += 1
 
 print(counter)
+
+search('Carre', 4)
+search('Brelan', 3)
+search('Paire', 2)
