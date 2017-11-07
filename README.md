@@ -1,0 +1,2 @@
+# dice
+Detect patterns
